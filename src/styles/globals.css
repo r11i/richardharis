@@ -382,14 +382,14 @@ main .aboutus img{
   align-items: center;
   justify-content: center;
 }
-.product{
+/* .product{
   background: url(../../public/product-2.png) no-repeat center;
   background-size: cover;
   padding: 80px 165px;
   color: white;
   font-weight: bold;
   margin-bottom: 0;
-}
+} */
 .title-white{
   color: white;
 }
@@ -440,13 +440,13 @@ main .product .swiper-slide p{
 .swiper-button-next::after, .swiper-button-prev::after{
   display: none;
 }
-.charcoalbanner{
+/* .charcoalbanner{
   padding: 80px 165px;
   background: url(../../public/bg-reserve.jpg) no-repeat center;
   background-size: cover;
   color: #fff;
   margin-bottom: 0;
-}
+} */
 .overlay{
   background-color: rgba(0, 79, 70, 0.65);
   position: absolute;
@@ -586,7 +586,7 @@ margin-top:16px;
 .width60{
   width: 60%;
 }
-.factory-visit{
+/* .factory-visit{
   height:500px;
   margin-bottom: 0;
   width: 100%;
@@ -596,7 +596,7 @@ margin-top:16px;
   opacity: 12; 
   display: flex; 
   align-items: center;
-}
+} */
 .factory-visit .factory-visit-content{
   position: relative;    
   font-family: Asap Medium!important;
