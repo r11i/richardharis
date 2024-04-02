@@ -217,7 +217,7 @@ export default function Home() {
             <span className="title">ABOUT ME</span>
             <h2 className="text-invert">An IT Enthusiast</h2>
             
-                <p>I'm an experienced software developer with high proficiency in TypeScript, JavaScript, along with expertises in frameworks such as React, Node.js, FastAPI, and so much more. I'm a quick learner and collaborate closely with clients, creating effective, efficient, scalable, and user-friendly solutions solving real-world problems. Let's work together to bring your ideas to life!</p>
+                <p>As a seasoned software developer, I possess extensive expertise in TypeScript, JavaScript, and proficiency in various frameworks including React, Node.js, FastAPI, among others. My adaptability allows me to quickly grasp new concepts, and I thrive in collaborative environments, closely engaging with clients to craft impactful, scalable, and user-centric solutions that address real-world challenges. I'm eager to collaborate with you to transform your ideas into reality!</p>
                 
             
             <div className="flex">
