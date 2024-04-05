@@ -135,6 +135,7 @@ export default function Home() {
         
         
         
+        
       </Head>
 
       <div style={{margin: '0', padding: '0'}}>
@@ -209,7 +210,19 @@ export default function Home() {
                 <div className="swiper-pagination"></div>
                 <div className="bar1"></div>
                 <h1>Hi, I'm <br></br>Richard Haris</h1>
-            </div>
+                <div className="flex gap-3 mt-[10px] max-[480px]:block">
+                  <div className="flex gap-3 max-[448px]:flex">
+                      <Link href={'https://instagram.com/richard_haris1'}><Image style={{width: '50px', height: '50px'}} src="/instagram2.png" alt="instagram" width={4320} height={4320}></Image></Link>
+                      <Link href={'https://www.linkedin.com/in/richard-haris-5b9182248/'}><Image style={{width: '50px', height: '50px'}} src="/linkedin.png" alt="linkedin" width={512} height={512}></Image></Link>
+                      <Link href={'https://www.github.com/r11i/'}><Image style={{width: '50px', height: '50px'}} src="/github.png" alt="github" width={256} height={256}></Image></Link>                 
+                  </div>
+                  
+                  <Link className="p-[10px] gap-2 flex justify-center items-center rounded-[14px] text-black bg-white max-[480px]:flex max-[480px]:mt-[20px] max-[480px]:w-[150px]" href={'https://drive.google.com/file/d/1sAXLFHwCnqtNmHJPcQ2-x_19ypHhXRSL/view?usp=sharing'}>
+                    <Image style={{width: '30px', height: '30px'}} src={'/resume.png'} width={256} height={256} alt="resume"></Image>
+                    <p>My Resume</p>
+                  </Link>
+                </div>
+            </div> 
         </div>                                                                   
         
         <div id="about-me" className="container aboutus" style={{ clear: 'both' }}>
@@ -217,7 +230,7 @@ export default function Home() {
             <span className="title">ABOUT ME</span>
             <h2 className="text-invert">An IT Enthusiast</h2>
             
-                <p>As a seasoned software developer, I possess extensive expertise in TypeScript, JavaScript, and proficiency in various frameworks including React, Node.js, FastAPI, among others. My adaptability allows me to quickly grasp new concepts, and I thrive in collaborative environments, closely engaging with clients to craft impactful, scalable, and user-centric solutions that address real-world challenges. I'm eager to collaborate with you to transform your ideas into reality!</p>
+                <p>As an IT enthusiast, I possess good expertise in TypeScript, JavaScript, and proficiency in various frameworks including Next.js, React, Node.js, FastAPI, Tailwind CSS, and many more. My adaptability allows me to quickly grasp new concepts, and I thrive in collaborative environments, closely engaging with clients to craft impactful, scalable, and user-centric solutions that address real-world challenges. I'm eager to collaborate with you to transform your ideas into reality!</p>
                 
             
             <div className="flex">
