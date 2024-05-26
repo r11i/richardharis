@@ -217,7 +217,7 @@ export default function Home() {
                       <Link href={'https://www.github.com/r11i/'}><Image style={{width: '50px', height: '50px'}} src="/github.png" alt="github" width={256} height={256}></Image></Link>                 
                   </div>
                   
-                  <Link className="p-[10px] gap-2 flex justify-center items-center rounded-[14px] text-black bg-white max-[480px]:flex max-[480px]:mt-[20px] max-[480px]:w-[150px]" href={'https://drive.google.com/file/d/141w6oIvKf5sYVjTjdzro9PGj_9GxOH0m/view?usp=sharing'}>
+                  <Link className="p-[10px] gap-2 flex justify-center items-center rounded-[14px] text-black bg-white max-[480px]:flex max-[480px]:mt-[20px] max-[480px]:w-[150px]" href={'https://drive.google.com/file/d/1h4zC_IVNgR_V1Opzy9YpZqzoUK7yZglb/view?usp=sharing'}>
                     <Image style={{width: '30px', height: '30px'}} src={'/resume.png'} width={256} height={256} alt="resume"></Image>
                     <p>My Resume</p>
                   </Link>
